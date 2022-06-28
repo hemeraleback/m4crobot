@@ -2,8 +2,8 @@
     Creato da Hemerale#9590, con l'aiuto dei tutorial 
          di Giulioandcode https://bit.ly/3nqeMkG 
                                                             */
-const Discord = require("discord.js")   //dichiarazione della libreria specifica per la creazione dei Bot per Discord
-const ytch = require("yt-channel-info") //dichiarazione della libreria per prendere le informazioni da Youtube
+const Discord = require("discord.js")   //dichiarazione della libreria specifica per la creazione dei Bot per Discord • npm i discord.js
+const ytch = require("yt-channel-info") //dichiarazione della libreria per prendere le informazioni da Youtube • npm i yt-channel-info
 const client = new Discord.Client(
     { intents: ["GUILDS", "GUILD_MEMBERS", "GUILD_MESSAGES", "GUILD_MESSAGE_REACTIONS"] }
 )
